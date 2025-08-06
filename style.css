@@ -1,0 +1,617 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+    padding-bottom: 30px;
+    z-index: 1;
+}
+header div{
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+header .logo img{
+    height: 80px;
+    width: 110px;
+    margin-left: 100px;
+}
+header .navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: bold;
+}
+header .navbar ul{
+    list-style: none;
+    
+}
+header .navbar ul li{
+    float: left;
+    padding: 12px;
+}
+header .navbar ul li a{
+    text-decoration: none;
+    color: #222222;
+    text-transform: uppercase;
+   
+}
+header .navbar ul li a:hover{
+color: #7c99ff;
+}
+/*section1 start*/
+.section1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 655px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.half1, .half2{
+    width: 50%;
+}
+.half1{
+    margin-left: 230px;
+    margin-bottom: 12px;
+    
+}
+.half2{
+    padding-right: 160px;
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+.half1 h3{
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 8px;
+
+}
+.half1 h1{
+    font-size: 50px;
+    margin-bottom: 8px;
+}
+.half1 p{
+    color: rgba(70, 67, 67, 0.5);
+    font-size: 12px;
+}
+.half1 input{
+    padding:12px 25px ;
+    background-image: linear-gradient(to right, #007bff, #6a5acd, #8a2be2);
+    outline: none;
+    border: none;
+    color: white;
+}
+.half1 input:hover{
+   
+     box-shadow: 5px 10px 30px rgba(130, 137, 255, 0.7);
+     transition: all ease 0.5s;
+     
+}
+/*section1 end*/
+
+/*section2 start*/
+.section2{
+   background-color: #f9f9ff;
+   height: 655px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.half3, .half4{
+    width: 50%;
+}
+.half3 img{
+padding-left: 120px;
+max-width: 100%;
+height: auto;
+}
+.half4{
+    margin-right: 230px;
+    margin-bottom: 12px;
+}
+
+.half4 h3{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+.half4 h1{
+    font-size: 50px;
+    margin-bottom: 8px;
+}
+.half4 p{
+    font-size: 12px;
+    color: rgba(70, 67, 67, 0.5);
+}
+
+.half4 input{
+    padding: 12px 8px;
+     background-image: linear-gradient(to right, #007bff, #6a5acd, #8a2be2);
+     outline: none;
+     border: none;
+     color: white;
+    }
+.half4 input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 137, 255, 0.7);
+     transition: all ease 0.5s;
+}    
+
+/*section2 end*/
+/*section3 start*/
+.section3{
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: #f9f9ff;
+}
+ .firsttext h1{
+    font-size: 40px;
+    line-height: 10px;
+    
+}
+ .firsttext p{
+    width: 670px;
+    color: rgba(0,0,0,0.5);
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.firsttext h1,
+.firsttext p {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding: 45px;
+}
+.srv1, .srv2{
+    width: 100%;
+    overflow: hidden;
+}
+.srv2{
+    padding-top: 40px;
+}
+.srv1 div, .srv2 div{
+    width: 31%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.service i{
+    font-size: 30px;
+    color: rgba(0,0,0,0.8);
+}
+.service h1{
+    color: rgba(0,0,0,0.9);
+    font-size: medium;
+}
+.service p{
+    color: rgba(0,0,0,0.5);
+    font-size: smaller;
+}
+
+.service i:hover{
+    color: #7c99ff;
+}
+.service h1:hover{
+    color: #7c99ff;
+}
+/*section3 end*/
+/*section4 start*/
+.section4{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right, #62cff4, #2c67f2 );
+}
+.section4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    left: 200px;
+  
+}
+.section4 h1,p{
+    text-align: center;
+    color: white;
+}
+.section4 h1{
+    font-size: 30px;
+    line-height: 0;
+    
+}
+
+/*section4 end*/
+/*section5 start*/
+.section5{
+    box-sizing: border-box;
+    width: 100%;
+}
+.section5 .txt h1,
+.section5 .txt p {
+    text-align: center;
+}
+.section5 .txt h1{
+    font-size: 30px;
+    color: rgba(0,0,0,0.9);
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.section5 .txt p{
+    color: rgba(0,0,0,0.5);
+    font-size: 12px;
+    margin-bottom: 20px;
+
+}
+.section5 .imgg{
+    width: 75%; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-left: 80px;
+}
+.section5 .imgg div {
+    width: 30%;      /* Use percentage for 3 in a row */
+    min-width: 220px;
+    box-sizing: border-box;
+    padding: 20px;   /* Reduce padding */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section5 .imgg p{
+      color: rgba(0,0,0,0.5);
+    font-size: 12px;
+    margin: 0;
+     margin-left: 90px;
+ 
+}
+.section5 .imgg h1{
+    color: rgba(0,0,0,0.8);
+    font-size: 15px;
+    margin: 0;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.section5 .imgg figure{
+    background: linear-gradient(45deg, #6a5acd 40%, #62cff4 100%);
+    height: 339px;
+    width: 340px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+
+}
+.section5 figure:hover img{
+    opacity: 0.3;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/*section5 end*/
+/*section6 start*/
+.section6{
+    width: 100%;
+    height: 700px;
+}
+.section6 p{
+    color: #222222;
+    margin:0 auto;
+    padding: 0;
+    text-align: left;
+}
+.section6 .txt2 h1{
+    text-align: center;
+    color: rgba(0,0,0,0.9);
+    
+}
+.section6 .txt2 p{
+    color: rgba(0,0,0,0.5);
+    font-size: small;
+    margin-top: -10px;
+    text-align: center ;
+}
+.section6 .card{
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.section6 .card1{
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-top: 50px;
+}
+.section6 .card1 h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
+.section6 .card1 .price{
+    font-size: 30px;
+}
+.section6 .card1 p{
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+    font-size: small;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.section6 .card1 input{
+    outline: none;
+    background-color: #8293ff;
+    color: white;
+    font-size: 25px;
+    padding: 8px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.section6 .card1:hover{
+    background-color: #7c99ff;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.1);
+}
+.section6 .card1:hover input{
+    color: rgba(0,0,0,0.8);
+    background-color: white;
+   
+}
+/*section6 end*/
+/*footer start*/
+.footer{
+    background-color: rgb(4, 9, 30);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: white;
+    margin-top: 20px;
+}
+.footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.footer .foot .foot1 p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+.footer .foot .foot1 input{
+    font-size: 12px;
+    border: none;
+    outline: none;
+    padding: 10px 150px 10px 10px;
+}
+.footer .foot .foot1 button{
+    font-size: 18px;
+    color: white;
+    background-color: #7c99ff;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.footer .foot .foot1 i{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px 2px;
+}
+.footer .foot .foot1 i:hover{
+    color: #7c99ff;
+}
+
+/*footer end*/
+
+/*responsive*/
+/* Responsive styles */
+@media (max-width: 1200px) {
+    header .logo img {
+        margin-left: 30px;
+    }
+    header .navbar {
+        margin-right: 40px;
+    }
+    .half1, .half2, .half3, .half4 {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 0 10px;
+    }
+    .section5 .imgg {
+        margin-left: 0;
+    }
+    .footer .foot {
+        width: 95%;
+    }
+}
+
+@media (max-width: 900px) {
+    header {
+        height: auto;
+        padding-bottom: 10px;
+    }
+    header .logo img {
+        width: 80px;
+        height: 60px;
+        margin-left: 10px;
+    }
+    header .navbar {
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .section1,
+    .section2 {
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+        padding: 20px 0;
+    }
+    .half1, .half2, .half3, .half4 {
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+    }
+    .half2, .half3 img {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .section5 .imgg {
+        flex-direction: column;
+        width: 95%;
+        margin-left: 0;
+    }
+    .section5 .imgg div {
+        width: 90%;
+        min-width: unset;
+        margin: 0 auto 20px auto;
+    }
+    .section6 .card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section6 .card1 {
+        width: 90%;
+        margin: 20px 0;
+        height: auto;
+    }
+    .footer .foot {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 40px;
+        width: 95%;
+    }
+    .section4 div {
+        float: none;
+        width: 90%;
+        left: 0;
+        top: 20px;
+        margin: 0 auto 20px auto;
+        position: static;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    header {
+        height: auto;
+        padding-bottom: 10px;
+    }
+    header .logo img {
+        margin-left: 5px;
+        width: 60px;
+        height: 40px;
+    }
+    header .navbar {
+        margin-right: 5px;
+        margin-top: 5px;
+        font-size: 9px;
+    }
+    header .navbar ul li {
+        padding: 6px;
+    }
+    .section1,
+    .section2,
+    .section3,
+    .section4,
+    .section5,
+    .section6 {
+        padding: 10px 0;
+    }
+    .half1, .half2, .half3, .half4 {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 5px;
+    }
+    .section5 .imgg {
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+    }
+    .section5 .imgg div {
+        width: 100%;
+        padding: 10px 0;
+        min-width: unset;
+    }
+    .section5 .imgg figure {
+        width: 100%;
+        height: auto;
+    }
+    .section6 .card1 {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .footer {
+        height: auto;
+        padding: 20px 0;
+    }
+    .footer .foot {
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+    .footer .foot .foot1 input {
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .section4 {
+        height: auto;
+        padding: 20px 0;
+    }
+    .section4 div {
+        width: 100%;
+        margin: 10px 0;
+        left: 0;
+        top: 0;
+        position: static;
+        float: none;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 12px;
+    }
+    .section5 .txt h1,
+    .section6 .txt2 h1 {
+        font-size: 18px;
+    }
+    .footer .foot .foot1 button {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
